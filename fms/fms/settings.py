@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_ALLOWED_TEMPLATE_PACK =('bootstrap4','uni_form')
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
